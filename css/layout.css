@@ -11,7 +11,7 @@
 
 .clearfix:after {
   content: ".";
-  display: block;
+	display: block;
   clear: both;
   visibility: hidden;
   height: 0;
@@ -23,5 +23,45 @@
 }
 
 /* Posititoning Classes */
-
-
+.col-1 {
+  float: left;
+  width: 315px;
+  background: white;
+  height: 585.667px;
+}
+.col-2 {
+  float: left;
+  width: 630px;
+  margin-right: 12px;
+  background: white;
+}
+.col-3 {
+  background: white;
+}
+.col-offer{
+  float: left;
+  width: 309px;
+  background: white;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.col-last{
+  float: left;
+  width: 314px;
+  background: white;
+  margin-top: 12px;
+  height: 357.333px;
+  margin-bottom: 30px;
+}
+.col-footer{
+  float: left;
+  width: 309px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.col-last-footer{
+  float: left;
+  width: 314px;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
